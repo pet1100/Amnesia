@@ -23,11 +23,6 @@ public class Armor extends EquippedItem implements Damageable
         return ac;
     }
     
-    protected void setAc(byte ac)
-    {
-        this.ac = ac;
-    }
-    
     @Override
     public void damage(byte durabilityDamage)
     {
