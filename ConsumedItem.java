@@ -16,9 +16,4 @@ public class ConsumedItem extends Item
     {
         return charges;
     }
-    
-    protected void setCharges(byte charges)
-    {
-        this.charges = charges;
-    }
 }
