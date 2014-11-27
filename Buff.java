@@ -22,11 +22,6 @@ public class Buff extends ConsumedItem
         return buffDmg;
     }
     
-    protected void setBuffDmg(byte buffDmg)
-    {
-        this.buffDmg = buffDmg;
-    }
-    
     public void consume()
     {
         this.charges -= 1;
